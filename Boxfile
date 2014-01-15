@@ -16,9 +16,9 @@ web1:
     - mysqli
     - pdo_mysql
     - apc
-  php_zlib_output_compression: On
-after_build:
+  after_build:
     - "mv pagoda/database.php app/Config/database.php"
+    - "rm app/Config/core.php"
     - "mv pagoda/core.php app/Config/core.php"
 db1:
   name: cakephp-244
