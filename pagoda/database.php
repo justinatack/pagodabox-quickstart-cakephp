@@ -70,10 +70,10 @@ class DATABASE_CONFIG {
 	public $default = array(
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
-		'host' => DB1_HOST,
-		'login' => DB1_USER,
-		'password' => DB1_PASS,
-		'database' => DB1_NAME,
+		'host' => DB_HOST,
+		'login' => DB_USER,
+		'password' => DB_PASS,
+		'database' => DB_NAME,
 		'prefix' => '',
 		//'encoding' => 'utf8',
 	);
