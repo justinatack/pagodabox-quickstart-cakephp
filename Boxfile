@@ -19,7 +19,6 @@ web1:
   after_build:
     - "mv pagoda/database.php app/Config/database.php"
     - "mv pagoda/core.php app/Config/core.php"
-    - "rm pagoda/"
 db1:
   name: cakephp-244
   type: mysql
