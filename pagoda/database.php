@@ -59,15 +59,21 @@
  * For Postgres : http://www.postgresql.org/docs/9.2/static/sql-set.html
  * For Sql Server : http://msdn.microsoft.com/en-us/library/ms190356.aspx
  */
+
+define("DB_HOST", $_SERVER['DB1_HOST']);
+define("DB_NAME", $_SERVER['DB1_NAME']);
+define("DB_USER", $_SERVER['DB1_USER']);
+define("DB_PASS", $_SERVER['DB1_PASS']);
+
 class DATABASE_CONFIG {
 
 	public $default = array(
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
-		'host' => 'localhost',
-		'login' => 'user',
-		'password' => 'password',
-		'database' => 'database_name',
+		'host' => DB1_HOST,
+		'login' => DB1_USER,
+		'password' => DB1_PASS,
+		'database' => DB1_NAME,
 		'prefix' => '',
 		//'encoding' => 'utf8',
 	);
