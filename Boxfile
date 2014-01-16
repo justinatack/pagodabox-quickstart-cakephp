@@ -1,5 +1,5 @@
 web1:
-  name: cakephp-244
+  name: cakephp
   document_root: app/webroot
   shared_writable_dirs:
     - app/tmp
@@ -20,5 +20,5 @@ web1:
     - "mv pagoda/database.php app/Config/database.php"
     - "mv pagoda/core.php app/Config/core.php"
 db1:
-  name: cakephp-244
+  name: cakephp
   type: mysql
