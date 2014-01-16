@@ -1,5 +1,5 @@
-CakePHP
-=======
+CakePHP v2.4.4.
+===============
 
 [![CakePHP](http://cakephp.org/img/cake-logo.png)](http://www.cakephp.org)
 
